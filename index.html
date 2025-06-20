@@ -52,10 +52,10 @@
       padding: 0 12px;
     }
     @media (min-width: 700px) {
-      .locations-grid { grid-template-columns: repeat(2, 1fr);}
+      .locations-grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (min-width: 1050px) {
-      .locations-grid { grid-template-columns: repeat(4, 1fr);}
+      .locations-grid { grid-template-columns: repeat(3, 1fr); }
     }
     .location-card {
       background: var(--card);
@@ -134,9 +134,7 @@
       align-items: stretch;
     }
     @media (min-width: 520px) {
-      .signup-form {
-        flex-direction: row;
-      }
+      .signup-form { flex-direction: row; }
     }
     .signup-form input[type=email] {
       background: #16181e;
@@ -180,34 +178,48 @@
 <body>
   <header>
     <h1>Holiday Weather</h1>
-    <p>Track the weather for your favourite destinations - never get caught in the rain again. Sign up for the latest weather alerts.</p>
+    <p>Select a destination to see next week's forecast.</p>
   </header>
   <div class="locations-grid">
-    <a class="location-card" href="#malaga">
+    <a class="location-card" href="malaga.html">
       <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80');"></div>
       <div class="card-content">
         <h2>Malaga</h2>
         <span>See latest weather</span>
       </div>
     </a>
-    <a class="location-card" href="#tenerife">
+    <a class="location-card" href="tenerife.html">
       <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80');"></div>
       <div class="card-content">
         <h2>Tenerife</h2>
         <span>See latest weather</span>
       </div>
     </a>
-    <a class="location-card" href="#crete">
+    <a class="location-card" href="crete.html">
       <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80');"></div>
       <div class="card-content">
         <h2>Crete</h2>
         <span>See latest weather</span>
       </div>
     </a>
-    <a class="location-card" href="#dubrovnik">
+    <a class="location-card" href="dubrovnik.html">
       <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80');"></div>
       <div class="card-content">
         <h2>Dubrovnik</h2>
+        <span>See latest weather</span>
+      </div>
+    </a>
+    <a class="location-card" href="paris.html">
+      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1522098543979-ffc7f79d9515?auto=format&fit=crop&w=800&q=80');"></div>
+      <div class="card-content">
+        <h2>Paris</h2>
+        <span>See latest weather</span>
+      </div>
+    </a>
+    <a class="location-card" href="newyork.html">
+      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80');"></div>
+      <div class="card-content">
+        <h2>New York</h2>
         <span>See latest weather</span>
       </div>
     </a>
